@@ -1,0 +1,17 @@
+{
+  "name": "rga",
+  "version": "1.0.0",
+  "description": "rga test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
+  "author": "eko.purnomo@icloud.com",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}
