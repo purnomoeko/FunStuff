@@ -16,10 +16,12 @@ describe('Get possibility of video permutation', () => {
         
     });
     it('get video permutation Segment = 10, videoBlock = 6 ', () => {
-        const result = findCombination(['A', ['B', 'C', 'D'], 'E', ['F', 'G'], 'H', ['I', 'J']]);
+        const params = ['A', ['B', 'C', 'D'], 'E', ['F', 'G'], 'H', ['I', 'J']];
+        const result = findCombination(params);
         assert.equal(result.totalPossibilities, 12);
         assert.equal(result.possibilityCombination.length, 12);
-        console.info(result);
+        console.info('Params: ', params);
+        console.info('Result: ', result);
     });
 
     it('get video permutation random segment > 10, random video block > 10', () => {
