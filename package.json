@@ -9,7 +9,7 @@
   "author": "eko.purnomo@icloud.com",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "mocha": "^6.2.2"
